@@ -73,12 +73,12 @@ config :nerves_init_gadget,
 
 config :hc, HcIRC.Connection,
   host: "chat.freenode.net",
-  channel: "#elixir-sensors",
+  channel: "#my-own-channel",
   port: 6667,
   pass: "",
-  nick: "sensors-bot",
-  user: "sensors-bot",
-  name: "sensors-bot"
+  nick: "no-sensors-bot",
+  user: "no-sensors-bot",
+  name: "no-sensors-bot"
 
 # Import target specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

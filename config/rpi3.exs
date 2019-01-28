@@ -39,3 +39,11 @@ config :my_sensors, MySensors.Repo,
   adapter: Sqlite.Ecto2,
   database: "/root/my_sensors.sqlite",
   pool_size: 1
+
+# Configure meta information
+config :my_sensors_mysgw, MySensors.MySGW.Logger,
+  level: :info,
+  meta: [:some, "cool", 'info']
+
+# Don't start the daemon.
+# config :my_sensors_mysgw, MySensors.MySGW.Application, daemon: false
