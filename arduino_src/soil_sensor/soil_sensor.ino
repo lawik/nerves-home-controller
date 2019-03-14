@@ -49,7 +49,7 @@ Adafruit_seesaw ss;
 
 bool metric = true;
 
-static const uint64_t UPDATE_INTERVAL = 10000; // milliseconds
+static const uint64_t UPDATE_INTERVAL = 30000; // milliseconds
 
 MyMessage msgSoilHum(CHILD_ID_SOIL_HUM, V_LEVEL);
 MyMessage msgSoilTemp(CHILD_ID_SOIL_TEMP, V_TEMP);
